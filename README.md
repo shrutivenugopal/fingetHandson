@@ -1,14 +1,14 @@
-# fingetHandson
-Simple e-editor application with react &amp; redux
-Project Title : E_Book_App
-Description:
-    1. On loading application will display a page of a story.
-    2. All the page titles of a book are displayed in the sidebar on the left
-    3. User can add or edit a page    
-    4. All components are functional components
-        store stores the page and titles as 
+# fingetHandson </br>
+Simple e-editor application with react &amp; redux </br>
+Project Title : E_Book_App </br>
+Description: </br>
+    1. On loading application will display a page of a story. </br>
+    2. All the page titles of a book are displayed in the sidebar on the left </br>
+    3. User can add or edit a page    </br>
+    4. All components are functional components </br>
+        store stores the page and titles as </br>
             store: {
-                pages:[{title:"qwert", content:"qwerty fghjkl ghjkl"}]
+                pages:[{title:"qwert", content:"qwerty fghjkl ghjkl"}]  
             }
         Each page is an object with properties title and content
 
