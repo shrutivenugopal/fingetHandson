@@ -1,34 +1,34 @@
-# fingetHandson </br>
-Simple e-editor application with react &amp; redux </br>
-Project Title : E_Book_App </br>
-Description: </br>
-    1. On loading application will display a page of a story. </br>
-    2. All the page titles of a book are displayed in the sidebar on the left </br>
-    3. User can add or edit a page    </br>
-    4. All components are functional components </br>
-        store stores the page and titles as </br>
-            store:
-            ```javascript
-            {
-                pages:[{title:"qwert", content:"qwerty fghjkl ghjkl"}]  
-            }
-            ```
-        </br>Each page is an object with properties title and content </br></br>
+# fingetHandson 
 
-    5. Two actions are defined: SAVE_TITLE & UPDATE_TITLE</br>
-        SAVE_TITLE : to add a new page to the book</br>
-        UPDATE_TITLE: to edit/update an existing page in the book</br></br>
+### Simple e-editor application with react &amp; redux 
+### Project Title : E_Book_App 
+#### Description:
+- On loading application will display a page of a story. 
+- All the page titles of a book are displayed in the sidebar on the left 
+- User can add or edit a page 
+- All components are functional components
+    Store stores the page and titles as
+    ``` 
+    store: {
+                pages:[{title:"Solomon Grundy", 
+                content:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante."}]  
+    }
+    ```        
+Each page is an object with properties title and content
+
+- Two actions are defined: `SAVE_TITLE` & `UPDATE_TITLE`
+- `SAVE_TITLE`: to add a new page to the book
+- `UPDATE_TITLE`: to edit/update an existing page in the book
     
-    6. plain css used for styling @src\styling\home.css</br></br>
-    
-    7. store management @ src\store</br></br>
+- plain css used for styling @src\styling\home.css
+- store management @ src\store
 
-To install: </br>
-    run npm install </br>
-    run npm start </br>
-    app will be opened at http://localhost:3000/ </br></br>
+### To install:
+     run npm install 
+     run npm start
+App will be opened at http://localhost:3000/ 
 
-Dependencies: </br>
-    1. Font awesome icons used for social media icons on footer</br>
-    2. react-draft-wysiwyg used for rich text editor </br>
-    3. Redux is used for state management </br>
+### Dependencies:
+- Font awesome icons used for social media icons on footer
+- react-draft-wysiwyg used for rich text editor
+- Redux is used for state management
