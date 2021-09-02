@@ -7,25 +7,28 @@ Description: </br>
     3. User can add or edit a page    </br>
     4. All components are functional components </br>
         store stores the page and titles as </br>
-            store: {
+            store:
+            ```javascript
+            {
                 pages:[{title:"qwert", content:"qwerty fghjkl ghjkl"}]  
             }
-        Each page is an object with properties title and content
+            ```
+        </br>Each page is an object with properties title and content </br></br>
 
-    5. Two actions are defined: SAVE_TITLE & UPDATE_TITLE
-        SAVE_TITLE : to add a new page to the book
-        UPDATE_TITLE: to edit/update an existing page in the book
+    5. Two actions are defined: SAVE_TITLE & UPDATE_TITLE</br>
+        SAVE_TITLE : to add a new page to the book</br>
+        UPDATE_TITLE: to edit/update an existing page in the book</br></br>
     
-    6. plain css used for styling @src\styling\home.css
+    6. plain css used for styling @src\styling\home.css</br></br>
     
-    7. store management @ src\store
+    7. store management @ src\store</br></br>
 
-To install:
-    run npm install
-    run npm start
-    app will be opened at http://localhost:3000/
+To install: </br>
+    run npm install </br>
+    run npm start </br>
+    app will be opened at http://localhost:3000/ </br></br>
 
-Dependencies:
-    1. Font awesome icons used for social media icons on footer
-    2. react-draft-wysiwyg used for rich text editor
-    3. Redux is used for state management
+Dependencies: </br>
+    1. Font awesome icons used for social media icons on footer</br>
+    2. react-draft-wysiwyg used for rich text editor </br>
+    3. Redux is used for state management </br>
